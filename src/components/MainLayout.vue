@@ -2,7 +2,6 @@
 import MainScore from '@/components/MainScore.vue'
 </script>
 
-
 <template>
   <main>
     <div class="card">
