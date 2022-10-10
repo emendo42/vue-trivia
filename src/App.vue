@@ -6,6 +6,7 @@
       <RouterView />
     </div>
   </main>
+  <p class="score">Score: 100</p>
 </template>
 
 <style lang="postcss" scoped>
@@ -14,5 +15,9 @@ main {
   & .card {
     @apply flex h-5/6 min-h-fit w-11/12 flex-col items-center gap-16 overflow-auto rounded-xl bg-gray-200 p-8 shadow-xl;
   }
+}
+
+.score{
+  @apply absolute bottom-6 right-10  text-2xl font-bold uppercase text-green-200;
 }
 </style>
