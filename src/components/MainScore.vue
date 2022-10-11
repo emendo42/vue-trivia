@@ -1,5 +1,10 @@
+<script setup>
+import useScore from '@/composables/useScore.js'
+const { score } = useScore()
+</script>
+
 <template>
-  <p class="score">Score: 100</p>
+  <p class="score">Score: {{ score }}</p>
 </template>
 
 <style lang="postcss" scoped>
