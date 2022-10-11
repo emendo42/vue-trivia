@@ -11,7 +11,6 @@ onMounted(async () => {
 </script>
 
 <template>
- 
   <BaseTitle>
     <template #logo>
       <img src="/logo.svg" alt="logo" />
